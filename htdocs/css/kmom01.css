@@ -14,3 +14,71 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: #dcffdb;
+}
+
+body {
+    background-color: #b0ccac;
+}
+
+.wrap-all {
+    background-color: #dcffdb;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.site-logo {
+    display: none;
+}
+
+.outer-wrap {
+    width: 100%;
+}
+
+.region-flash img{
+    width: 800px;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.rm-navbar {
+    padding: 1em;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.rm-navbar li {
+    display: inline;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.author-byline {
+    width: 450px;
+    height: 90px;
+    margin: 2px left;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.site-footer {
+    padding: 1em;
+    text-align: center;
+}

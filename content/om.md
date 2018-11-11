@@ -15,14 +15,20 @@ views:
             meta: 
                 type: single
                 route: block/om-redovisa
+
+    minions:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta: 
+                type: single
+                route: block/om-block
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Första steget på stigen kallad design. Några knep från htmlphp har förhoppningsvis fastnat och finns troligen kvar i huvudet någonstans. Det verkar mycket nu i början men känns ändå hoppfullt att ta sig an detta.
 
-Skriv några kloka ord om kursen?
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+<a href='https://github.com/dbwebb-se/design'>Kursen Design (kursrepo GitHub)</a> | 
+<a href='https://github.com/mada81/disignv2'>Min redovisningssida (GitHub)</a>
+[FIGURE src=image/web-design.jpg?w=300 caption="The sky is the limit"]
