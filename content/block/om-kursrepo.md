@@ -1,3 +1,6 @@
-#### Kursrepo
+#### Kursen Design
 
-Skriv något kort om kursen och länka till [kursens hemsida på dbwebb.se](XXX) och till [kursrepot på GitHub](XXX).
+Detta är en del av kursen Design inom Webbprogrammering (180p) på BTH. För en som är ny på html är det knepigt men väldigt lärorikt.
+
+- [Kursens hemsida på dbwebb.se](https://dbwebb.se/kurser/design-v2)
+- [Kursrepot på GitHub](https://github.com/dbwebb-se/design)

@@ -3,4 +3,4 @@
 Redovisningstexter
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/redovisning/00_index.md`.
+Här kan du se alla redovisningstexter för de olika kursmomenten (kmom). Kika in med någon veckas mellanrum för att se de senaste texterna.
