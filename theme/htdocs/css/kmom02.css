@@ -4351,10 +4351,6 @@ ul li {
   border: 1px solid black;
   overflow: auto;
 }
-.site-footer {
-  padding: 1em;
-  text-align: center;
-}
 /**
  * Style for the stylechooser.
  */
@@ -4457,6 +4453,7 @@ img {
  */
 .outer-wrap-header {
   background-color: #91caf8;
+  overflow: auto;
 }
 .inner-wrap-header {
   max-width: 100%;

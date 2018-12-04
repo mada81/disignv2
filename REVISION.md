@@ -1,6 +1,17 @@
 Revision history
 ===================
 
+v3.0.0 (2018-12-04)
+--------------------
+
+* Responsivity added for main page and for multi column pages. Added vgrid and hgrid for easier styling. Changed color and font on page.
+
+
+v2.0.0 (2018-11-17)
+--------------------
+
+* Added new report for kmom02 in 'Redovisning'
+
 
 v1.0.2 (2018-11-17)
 --------------------
