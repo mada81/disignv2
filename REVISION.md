@@ -1,6 +1,13 @@
 Revision history
 ===================
 
+
+v4.0.0 (2018-12-12)
+--------------------
+
+* Added three CSS themes for kmom04. Added report on color analysis for three web pages. Restructured .less modules from previous kmom.
+
+
 v3.0.0 (2018-12-04)
 --------------------
 
