@@ -16,7 +16,7 @@ Sidan valdes på grund av att jag känner ägaren av sidan. Har varit på en fö
 [__https://www.coolstuff.se__](https://www.coolstuff.se/) - Prylhandel. Roliga, coola och innovativa prylar.
 Jag ville ha en webbshop med i analysen för att se hur färger används för att locka kunder till köp.
 
-[__http://www.centrumbiografen.se__](http://www.centrumbiografen.se/)- Biograf i Ronneby.
+[__http://www.centrumbiografen.se__](http://www.centrumbiografen.se/) - Biograf i Ronneby.
 Även denna sida riktar sig till eventuella kunder men är inte direkt en webbshop i samma bemärkelse som CoolStuff.
 
 

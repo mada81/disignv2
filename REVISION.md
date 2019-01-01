@@ -2,6 +2,12 @@ Revision history
 ===================
 
 
+v5.0.0 (2019-01-01)
+--------------------
+
+* Kmom05 style set as default. Added new report on load time for websites. Added a blogg to the site where pictures are manipulated and shown using Cimage. Edited redovising kmom03.
+
+
 v4.0.0 (2018-12-12)
 --------------------
 
