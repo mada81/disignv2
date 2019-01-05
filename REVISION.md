@@ -1,6 +1,11 @@
 Revision history
 ===================
 
+v6.0.0 (2019-01-05)
+--------------------
+
+* New report on design principles added. New repport on design element added, mostly to show of som design elements. New style for kmom06 added.
+
 
 v5.0.0 (2019-01-01)
 --------------------

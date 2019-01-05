@@ -1,0 +1,82 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    margin: 0 auto;
+    background-color: #eaecff;
+    overflow: auto;
+}
+
+.site-logo {
+    display: none;
+}
+
+/**
+ * Main and sidebar layout
+ */
+
+.inner-wrap-main {
+    // .clearfix();
+    overflow: hidden;
+    max-width: 1400px;
+
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+// .region-main,
+// .region-sidebar-left,
+// .region-sidebar-right {
+//     background-color: pink;
+//     overflow: auto;
+// }
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+/**
+ * Footer layout
+ */
+
+.footer-column {
+    width: 33%;
+    float: left;
+    margin-bottom: 1em;
+    // border-bottom: solid 2px #cfd3f8;
+}
+
+.article {
+    padding: 15px;
+}
