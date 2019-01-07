@@ -1,10 +1,16 @@
 Revision history
 ===================
 
+v6.0.1 (2019-01-07)
+--------------------
+
+* New theme added 'designprinciper'. New site under 'Rapport' to demonstrate 'designprinciper'.
+
+
 v6.0.0 (2019-01-05)
 --------------------
 
-* New report on design principles added. New repport on design element added, mostly to show of som design elements. New style for kmom06 added.
+* New report on design principles added. New repport on design element added, mostly to show of some design elements. New style for kmom06 added.
 
 
 v5.0.0 (2019-01-01)

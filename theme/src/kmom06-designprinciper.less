@@ -1,0 +1,202 @@
+/*!
+ * Stylesheet för design kmom06.
+ *
+ * Detta tema gäller för kmom06 och ska visa designprinciper.
+ */
+/**
+
+* Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom06_designprinciper.less";
+// @import "base/base.less";
+
+/**
+ * Import the vertical grid.
+ */
+
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid_kmom06_designprinciper.less";
+
+// Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/layout_kmom06_designprinciper.less";
+// @import "layout/layout_kmom02.less"; // kmom02 / footer
+@import "layout/responsive.less";
+// @import "layout/regions_kmom06_designprinciper.less";     // To add style for ?regions
+
+/**
+ * Modules.
+ */
+
+@import "module/breadcrumb_kmom06_designprinciper.less";
+@import "module/flash_logo.less";
+@import "module/footer.less";
+@import "module/header.less";
+@import "module/main_sidebar.less";
+@import "module/responsive.less";
+@import "module/cimage_figure.less";
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+ * @Desinax/Figure.
+ */
+
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+@import "@desinax/figure/less/style.less";
+@import "@desinax/figure/less/figure_from_canax.less";
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+@bgColorHtml:   #eee;
+@bgColorBody:   #eee;
+@colorBody:     #999;
+@colorHeader:   #999;    
+@colorFooter:   #eee;
+@bgColorFooter: #fbb75d;
+@innerWrap:     #eee;
+
+// Change font on page
+@fontFamilyBody:    "sans-serif";
+
+// Magic number and base fontsize
+@magicNumber:       24px;  // 22px
+@fontSizeBody:      18px;  // 16px
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #777;
+}
+
+.inner-wrap-main {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.inner-wrap-header {
+    background-color: #fbb75d;
+}
+
+ul {
+    list-style: none;
+}
+
+.line-one {
+    width: @columns;
+    height: 15px;
+    background-image: linear-gradient(#fbb75d, rgba(255, 255, 255, 0.6), rgba(238, 227, 226, 0.6));
+    // background-image: linear-gradient(-90deg, red, yellow);
+}
+
+.line-two {
+    margin-top: 5px;
+    width: @columns;
+    height: 15px;
+    background-image: linear-gradient(rgba(238, 227, 226, 0.6), rgba(255, 255, 255, 0.6), #fbb75d);
+    // background-color: #fbb75d;
+}
+
+// .region-flash img {
+//     position: relative;
+//     left: 0;
+//     transition: left 1s;
+//     overflow: hidden;
+// }
+
+.region-flash img:hover {
+    left: 40px;
+    transition: left 0.5s;
+}
+
+.my-navbar li {
+    position: relative;
+    top: 0;
+    transition: top 0.5s;
+    background-color: #fbb75d;
+    // color: #fbb75d;
+    transition: background-color 1s;
+}
+
+.my-navbar li:hover {
+    top: 7px;
+    background-color: #b98239;
+    transition: top 0.1s;
+    transition: background-color 0.5s;
+}
+
+.region-sidebar-left li {
+    position: relative;
+    left: 0;
+    transition: top 0.5s;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 1s;
+}
+
+.region-sidebar-left li:hover {
+    left: 7px;
+    background-color: #fbb75d;
+    transition: left 0.1s;
+    transition: background-color 0.5s;
+}
+
+.region-sidebar-left {
+    top: @magicNumber / 8;
+    position: sticky;
+    display: flex;
+}
+
+.region-sidebar-left h4 {
+    background-color: #fbb75d;
+}
