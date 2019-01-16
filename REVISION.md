@@ -1,6 +1,18 @@
 Revision history
 ===================
 
+v10.0.0 (2019-01-16)
+--------------------
+
+* New 'redovisningstext' added for kmom10 regarding project 'Leva-Life'.
+
+
+v6.0.2 (2019-01-07)
+--------------------
+
+* New theme added 'designprinciper'. New site under 'Rapport' to demonstrate 'designprinciper'. Background image set to no-repeat and fixed. New 'redovisning'-text added.
+
+
 v6.0.1 (2019-01-07)
 --------------------
 
